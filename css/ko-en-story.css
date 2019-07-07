@@ -61,6 +61,11 @@ h2{
   color: white;
 }
 
+.btn-new a {
+  text-decoration: none;
+  color: white;
+}
+
 /* nav drop down colours */
 .dropdown-menu {
   background-color: white;
@@ -108,7 +113,7 @@ header {
 }
 
 
-/* Front page level  boxes */
+/* Front page story  boxes */
 .storylist {
   border-radius: 1em;
   padding: 1%;
@@ -133,12 +138,53 @@ header {
   color: darkmagenta;
 }
 
+/* front page title */
+.front-title {
+  text-align: center;
+  color: #0047A0;
+}
+
+/* Front page etc  boxes */
+.front-boxes {
+  border-radius: 1em;
+  padding: 1%;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  margin:0 auto;
+  margin-bottom: 20px;
+  background-color: #0047A0;
+}
+
+.front-boxes:hover {
+  background-color: rgba(0, 72, 160, 0.425);
+}
+
+.front-boxes-container a:link {
+  text-decoration: none;
+  color:white;
+}
+
+.front-boxes-container a:visited {
+  text-decoration: none;
+  color:white;
+}
 
 
 /* Styling for the story pages */
 .booktitle {
   text-align: center;
-  color: #0047A0 ;
+  color: #0047A0;
+  font-weight: bold;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center 
+}
+
+/* Control the title image */
+.titleimg {
+  max-width: 10em;
 }
 
 .k-story {
@@ -228,5 +274,15 @@ eng {
   font-family: 'Sniglet', cursive;
 }
 
+/* for about page */
+.about-text {
+  border: solid green;
+  justify-content: center;
+}
 
+
+/* for submit page */
+.submit-form {
+  justify-content: center;
+}
 

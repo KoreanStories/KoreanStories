@@ -37,8 +37,12 @@
 
   <body id="page-top">
 
+  <!-- Facebook Share Java-->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
+
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top col-lg-6 mx-auto" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top  mx-auto" id="mainNav">
     <div class="container">
       <a href="index.html"><img class="navbar-brand js-scroll-trigger" src="img/logo.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +53,7 @@
           <li class="nav-item">
             <div class="dropdown" >
               <button class="btn btn-new dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Super Beginner
+                Easy
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="amazingpot.html">The Amazing Pot</a>
@@ -59,7 +63,7 @@
           <li class="nav-item">
             <div class="dropdown" >
               <button class="btn btn-new dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Beginner
+                Medium
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="amazingpot.html">The Amazing Pot</a>
@@ -69,7 +73,7 @@
           <li class="nav-item">
             <div class="dropdown" >
               <button class="btn btn-new dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Intermediate
+                Hard
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="amazingpot.html">The Amazing Pot</a>
@@ -78,21 +82,30 @@
           </li>
           <li class="nav-item">
             <button class="btn btn-new" type="button" >
-              Resources
+              <a href="submit.html">Submit a Story</a>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-new" type="button" >
+              <a href="resources.html">Resources</a>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-new" type="button" >
+              <a href="about.html">About</a>
             </button>
           </li>
         </ul>
       </div>
     </div>
-  </nav>
+    </nav>
     
   <!-- Heading --> 
   <header>
-    <div class="container" >
-      <div class="row col-lg-12" >
-        <div class="mx-auto booktitle">
-            <h2>신기한 항아리</h2>
-            <h4>The Amazing Pot</h4>
+    <div class="container">
+      <div class="row booktitle">
+        <div>
+          <img class="titleimg" src="img/amazingpot.png">
         </div>
       </div>
     </div>
@@ -113,7 +126,7 @@
       <div id="btnopen1" class="collapse">
         <div class="k-story">
           <h3>파낸 <strong id="hoverword" data-toggle="tooltip" title="Pot">항아리</strong></h3>
-          <eng><h4>The Buried Pot</h4></eng>
+          <eng><h4>The Dug Up Pot</h4></eng>
           <p>옛날 어느 마을에 <strong id="hoverword" data-toggle="tooltip" title="farmer">농부가</strong> 살았다.<br>
               <eng> One day there was a farmer who lived in a village. <br></eng>
               하루는 농부가 <strong id="hoverword" data-toggle="tooltip" title="hoe">괭이</strong>로 밭을 갈고 있었다. <br>
@@ -333,8 +346,9 @@
   <div class="container">
     <div class="row">
       <div class="mx-auto share-section">
-        <h4>Share this story!</h4>
-
+        <h5>Share this story!</h5>
+        <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
+        </div>
     </div>
     </div>
   </div>
