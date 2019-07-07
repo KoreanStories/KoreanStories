@@ -1,0 +1,232 @@
+body {
+  font-family: 'Sniglet', cursive;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+h2{
+  font-family: 'Sniglet', cursive;
+}
+
+/* nav bar logo */
+.navbar-brand {
+  max-width: 10em;
+}
+
+/* Entire nav bar */
+.navbar {
+  background-color: white; 
+  margin-bottom:2em;
+  align-content: center;
+  font-family: 'Sniglet', cursive;
+}
+
+/* Nav bar buttons */
+.btn-nav {
+  margin: 0.2em;
+}
+
+
+/* The span thing when it's a small screen*/
+.navbar-toggler {
+  background-color: #CD2E3A;
+  border: solid black;
+}
+
+
+/* nav bar buttons */
+.dropdown-toggle:hover {
+  background-color: #9a1924;
+  color: white;
+}
+
+.dropdown-toggle:active {
+  background-color: #9a1924;
+  color: white;
+}
+
+.btn-new {
+  background-color: #CD2E3A;
+  color: white;
+  margin-right: 0.3em;
+  margin-top: 0.3em;
+}
+
+.btn-new:hover {
+  background-color: #9a1924;
+  color: white;
+}
+
+.btn-new:active {
+  background-color: #9a1924;
+  color: white;
+}
+
+/* nav drop down colours */
+.dropdown-menu {
+  background-color: white;
+  color: black;
+}
+
+.dropdown-item:hover {
+  background-color: #9a1924;
+  color: white;
+}
+
+
+
+/* header css */
+header {
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-family: 'Sniglet', cursive;
+}
+
+/* header image logo */
+.header-img {
+  max-width: 100%;
+}
+
+
+/* This is in the footer */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+.copyright {
+  font-size: 50%;
+  color: black;
+  text-align: center;
+}
+
+
+/* Front page level  boxes */
+.storylist {
+  border-radius: 1em;
+  padding: 1%;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  margin:0 auto;
+  margin-bottom: 20px;
+  border: solid black;
+}
+
+.storylist a:link {
+  text-decoration: none;
+  color:#CD2E3A;
+}
+
+.storylist a:visited {
+  color: #0047A0 ;
+}
+
+.storylist a:hover {
+  color: darkmagenta;
+}
+
+
+
+/* Styling for the story pages */
+.booktitle {
+  text-align: center;
+  color: #0047A0 ;
+}
+
+.k-story {
+  text-align: center;
+  padding: 1.5em;
+}
+
+
+/* This controls the tool tip stuff*/
+#hoverword {
+  color: #0047A0;
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+/* This is for the English */
+eng {
+  color: #CD2E3A;
+}
+
+
+
+/* This is for the scroll button */
+#topBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; 
+  outline: none; 
+  background-color: black;
+  color: white;
+  opacity: 0.4;
+  cursor: pointer; 
+  padding: 10px;
+}
+
+#topBtn:hover {
+  background-color: #555; 
+}
+
+/* These are for the language show/hide buttons */
+.reveals {
+  text-align: center;
+}
+
+.float-show{
+	position:fixed;
+	width:7em;
+  bottom: 2em;
+  left: 4em;
+  text-align:center;
+  padding: 0.1em;
+  font-family: 'Sniglet', cursive;
+}
+
+.float-hide{
+	position:fixed;
+	width:7em;
+	bottom: 2em;
+	right: 4em;
+  text-align:center;
+  padding: 0.1em;
+  font-family: 'Sniglet', cursive;
+}
+
+/*Chapter buttons */
+.btn-info {
+  margin-bottom: 1em;
+  font-family: 'Sniglet', cursive;
+}
+
+
+
+
+/* main section */
+#main {
+  margin-top: 5em;
+}
+
+.share-section {
+  padding-top: 2em;
+  padding-bottom: 5em;
+  text-align: center;
+  font-family: 'Sniglet', cursive;
+}
+
+
+
