@@ -176,10 +176,29 @@ header {
   text-align: center;
   color: #0047A0;
   font-weight: bold;
-  padding: 0.5em;
   display: flex;
   align-items: center;
-  justify-content: center 
+  justify-content: center;
+  background-color: aliceblue;
+  text-shadow: 3px 3px 3px  #ffffff;
+}
+
+.book-container {
+  margin-bottom: -20px;
+  padding
+}
+
+/* This makes the title sit in the right place on smaller screens*/
+@media only screen and (max-width: 600px) {
+ .book-container {
+  border: solid aliceblue;
+  background-color: aliceblue;
+ }
+
+ .booktitle {
+   padding-top:0.5em;
+   margin-top: 10px;
+ }
 }
 
 /* Control the title image */
@@ -222,6 +241,7 @@ eng {
   opacity: 0.4;
   cursor: pointer; 
   padding: 10px;
+  border-radius: 1em;
 }
 
 #topBtn:hover {
@@ -230,26 +250,30 @@ eng {
 
 /* These are for the language show/hide buttons */
 .reveals {
-  text-align: center;
+  position:fixed;
+  bottom: 2em;
+  text-align:center;
+  justify-content: center;
+  vertical-align: middle;
+  align-content: center;
+  right: 50px;
+  left: 50px;
+  padding: 0.3em;
+  margin: 0.2em;
+  font-family: 'Sniglet', cursive;
 }
 
 .float-show{
-	position:fixed;
 	width:7em;
-  bottom: 2em;
-  left: 4em;
   text-align:center;
-  padding: 0.1em;
+  padding: 0.3em;
   font-family: 'Sniglet', cursive;
 }
 
 .float-hide{
-	position:fixed;
 	width:7em;
-	bottom: 2em;
-	right: 4em;
   text-align:center;
-  padding: 0.1em;
+  padding: 0.3em;
   font-family: 'Sniglet', cursive;
 }
 
@@ -259,7 +283,9 @@ eng {
   font-family: 'Sniglet', cursive;
 }
 
-
+.btn-info a {
+  color: white;
+}
 
 
 /* main section */
@@ -286,3 +312,28 @@ eng {
   justify-content: center;
 }
 
+/* Functions for the floating chapters at the top of the page */
+.chap-nav{
+  position:fixed;
+  top: 60px;
+  text-align:center;
+  justify-content: center;
+  vertical-align: middle;
+  align-content: center;
+  right: 50px;
+  left: 50px;
+  padding: 0.1em;
+  font-family: 'Sniglet', cursive;
+}
+
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+/* This button hides content on tablets and desktop 
+Used for the chap nav part!! */
+@media only screen and (min-width: 601px) {
+  .hide-on-tablet-and-desktop {
+  display: none !important;
+  }
+}
