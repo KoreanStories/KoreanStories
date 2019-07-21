@@ -7,6 +7,7 @@ h2{
   font-family: 'Sniglet', cursive;
 }
 
+
 /* nav bar logo */
 .navbar-brand {
   max-width: 10em;
@@ -122,8 +123,24 @@ header {
   display: inline-block;
   margin:0 auto;
   margin-bottom: 20px;
-  border: solid black;
+  
 }
+
+.storylist ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition: all .2s ease-in-out;
+}
+
+.storylist li:hover {
+  background-color: aliceblue;
+  border-radius: 1em;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  transform: scale(1.1);
+}
+
 
 .storylist a:link {
   text-decoration: none;
@@ -132,10 +149,6 @@ header {
 
 .storylist a:visited {
   color: #0047A0 ;
-}
-
-.storylist a:hover {
-  color: darkmagenta;
 }
 
 /* front page title */
@@ -153,7 +166,8 @@ header {
   display: inline-block;
   margin:0 auto;
   margin-bottom: 20px;
-  background-color: #0047A0;
+  border: solid #0047A0;
+  color: #0047A0;
 }
 
 .front-boxes:hover {
@@ -162,12 +176,19 @@ header {
 
 .front-boxes-container a:link {
   text-decoration: none;
-  color:white;
+  color: #0047A0;
 }
 
 .front-boxes-container a:visited {
   text-decoration: none;
-  color:white;
+  color: #0047A0;
+}
+
+
+
+.front-boxes-container a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 
@@ -224,6 +245,46 @@ eng {
   color: #CD2E3A;
 }
 
+/* Grammar tip section */
+.grammar-tip {
+  background-color: aliceblue;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;  
+  margin-bottom: 1em;
+  font-family: 'Sniglet', cursive;  
+}
+
+.grammar-tip h4 {
+  font-weight: bold;
+  text-decoration-line: underline overline;
+}
+
+.grammar-tip g-tip {
+  color: #0047A0;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.grammar-tip em {
+  color: #CD2E3A;
+}
+
+.grammar-tip a{
+  background-color: #0047A0;
+  color: white;
+  border-radius: 0.2em;
+  padding: 0.3em;
+  text-decoration: none;
+}
+
+.grammar-tip a:hover {
+  background-color: #CD2E3A;
+  color: white;
+ 
+}
 
 
 /* This is for the scroll button */
