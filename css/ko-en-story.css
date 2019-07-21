@@ -185,7 +185,6 @@ header {
 
 .book-container {
   margin-bottom: -20px;
-  padding
 }
 
 /* This makes the title sit in the right place on smaller screens*/
@@ -325,10 +324,6 @@ eng {
   padding: 0.1em;
   font-family: 'Sniglet', cursive;
 }
-
-
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
 
 /* This button hides content on tablets and desktop 
 Used for the chap nav part!! */
