@@ -419,6 +419,47 @@
     <!--Closing div for accordion feature-->
     </div>
   
+    <!-- Questions section -->
+    <div class="container question-box">
+      <h5>Questions</h5>
+      <p class="question">1. Where did the farmer find the pot?</p>
+      <ul>
+          <label class="quest-cont" id="correctString1">In a field
+              <input type="radio" checked="checked" name="q1" value="1">
+              <span class="answer"></span>
+          </label>
+          <label class="quest-cont">In a house
+              <input type="radio" checked="checked" name="q1" value="0">
+              <span class="answer"></span>
+          </label>
+          <label class="quest-cont">In a river
+              <input type="radio" checked="checked" name="q1" value="0">
+              <span class="answer"></span>
+          </label>
+          <label class="quest-cont">On the beach
+              <input type="radio" checked="checked" name="q1" value="0">
+              <span class="answer"></span>
+          </label>
+      </ul>
+    </div>
+
+    <!-- Submit button-->
+    <div class="submitter"  >
+      <input class="quizSubmit btn-info" id="submitButton" onClick="submitQuiz()"
+      type="submit" value="Check"  />
+    </div>
+
+    <!-- Change answer colour-->
+      <div class="revealAnswer">
+        <button class="btn-sm btn-warning" onclick="revealAnswer()" data-target="#answerbtn"> Show Answers
+        </button>
+      </div>
+
+    <!--show score upon submit-->
+      <div>
+        <h5 class="quizScore"  id="userScore"></h5>
+      </div>
+
   <!--Closing div for story container-->
   </div>
 
@@ -477,6 +518,7 @@
 
   <!-- Custom JavaScript for this theme -->
   <script src="../js/ko-en-story.js"></script>
+  <script src="../quiz.js"></script>
 
   </body>
 

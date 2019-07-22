@@ -7,7 +7,9 @@ h2{
   font-family: 'Sniglet', cursive;
 }
 
-
+.container {
+  font-family: 'Sniglet', cursive;
+}
 /* nav bar logo */
 .navbar-brand {
   max-width: 10em;
@@ -229,6 +231,7 @@ header {
 .k-story {
   text-align: center;
   padding: 1.5em;
+  font-family: 'Nanum Gothic', sans-serif; 
 }
 
 
@@ -251,8 +254,8 @@ eng {
   max-width: 400px;
   text-align: center;
   border-radius: 0.5em;
-  padding-top: 0.1em;
-  padding-bottom: 0.1em;  
+  padding-top: 0.2em;
+  padding-bottom: 0.5em;  
   margin-bottom: 1em;
   font-family: 'Sniglet', cursive;  
 }
@@ -392,4 +395,96 @@ Used for the chap nav part!! */
   .hide-on-tablet-and-desktop {
   display: none !important;
   }
+}
+
+
+/* CSS for question section and buttons */
+.question-box {
+  display: inline-block;
+  background-color: aliceblue;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 0.5em;
+  padding-top: 0.2em;
+  margin-bottom: 1em;
+}
+
+.question-box h5 {
+  text-decoration-line: underline overline;
+}
+
+.question {
+  margin-bottom: 0px;
+}
+
+.quest-cont {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: left;
+  padding-left: 30px;
+}
+
+/* Hide the browser's default radio button */
+.quest-cont input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.answer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.quest-cont:hover input ~ .answer {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.quest-cont input:checked ~ .answer {
+  background-color: #0047A0;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.answer:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.quest-cont input:checked ~ .answer:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.quest-cont .answer:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+/* Quiz submit button */
+.quizSubmit {
+  border-radius: 0.2em;
+}
+
+/* for the text of the user score */
+.quizScore {
+  margin-top: 5px;
 }
