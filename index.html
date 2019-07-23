@@ -64,7 +64,7 @@
           </li>
           <li class="nav-item">
             <button class="btn btn-new" type="button" >
-              <a href="submit.html">Submit a Story</a>
+              <a href="./submit/submit.html">Submit a Story</a>
             </button>
           </li>
           <li class="nav-item">
@@ -91,15 +91,16 @@
           <h4>
               Korean traditional folk stories with English translations.
           </h4>
+          <h5> Pick a level and begin reading!</h5>
         </div>
       </div>
     </div>
   </header>
   
 
-   <!--Content-->
+   <!--Content only visible on LARGE screen-->
    <section id="content">
-    <div class="container">
+    <div class="container hide-on-mobile-only">
       <div class="row col-lg-12 mx-auto">
         <div class="storylist"><h2>Easy</h2>
           <ul>
@@ -120,6 +121,46 @@
         </div>
       </div>
     </div>
+
+
+  <!--This content is only visible on SMALL screens-->
+  <div class="container hide-on-tablet-and-desktop">
+    <div class="story-list-small dropdown show">
+      <a class="btn  btn-info btn-lg dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Easy
+      </a>
+    
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="easy/amazingpot.html">신기한 항아리 | The Amazing Pot</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </div>
+
+    <div class="story-list-small dropdown show">
+      <a class="btn  btn-info btn-lg dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Medium
+      </a>
+    
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="easy/amazingpot.html">신기한 항아리 | The Amazing Pot</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </div>
+
+      <div class="story-list-small dropdown show">
+        <a class="btn  btn-info btn-lg dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Hard
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="easy/amazingpot.html">신기한 항아리 | The Amazing Pot</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+  </div>
 
     <div class="container">
       <div class="row  front-boxes-container">

@@ -1,14 +1,14 @@
 body {
-  font-family: 'Sniglet', cursive;
+  font-family: 'Sniglet', sans-serif;
   font-family: 'Nanum Gothic', sans-serif;
 }
 
 h2{
-  font-family: 'Sniglet', cursive;
+  font-family: 'Sniglet', sans-serif;
 }
 
 .container {
-  font-family: 'Sniglet', cursive;
+  font-family: 'Sniglet', sans-serif;
 }
 /* nav bar logo */
 .navbar-brand {
@@ -20,7 +20,7 @@ h2{
   background-color: white; 
   margin-bottom:2em;
   align-content: center;
-  font-family: 'Sniglet', cursive;
+  font-family: 'Sniglet', sans-serif;
 }
 
 /* Nav bar buttons */
@@ -89,7 +89,7 @@ header {
   color: black;
   margin-top: 2em;
   margin-bottom: 1em;
-  font-family: 'Sniglet', cursive;
+  font-family: 'Sniglet', sans-serif;
 }
 
 /* header image logo */
@@ -151,6 +151,30 @@ header {
 
 .storylist a:visited {
   color: #0047A0 ;
+}
+
+/* This content hides the large menu option on small screens!!*/
+@media only screen and (max-width: 600px) {
+  .hide-on-mobile-only {
+  display: none !important;
+  }
+  }
+
+/* Content for mobile front page display */
+.story-list-small {
+  text-align: center;
+}
+
+
+.story-list-small .dropdown-menu {
+  text-align: center;
+  align-content: center;
+  vertical-align: center;
+  margin-right: 30px;
+}
+
+.story-list-small .dropdown-item:hover {
+  background-color: #0047A0;
 }
 
 /* front page title */
@@ -257,7 +281,7 @@ eng {
   padding-top: 0.2em;
   padding-bottom: 0.5em;  
   margin-bottom: 1em;
-  font-family: 'Sniglet', cursive;  
+  font-family: 'Sniglet', sans-serif;  
 }
 
 .grammar-tip h4 {
@@ -323,27 +347,27 @@ eng {
   left: 50px;
   padding: 0.3em;
   margin: 0.2em;
-  font-family: 'Sniglet', cursive;
+  font-family: 'Sniglet', sans-serif;
 }
 
 .float-show{
 	width:7em;
   text-align:center;
   padding: 0.3em;
-  font-family: 'Sniglet', cursive;
+  font-family: 'Sniglet', sans-serif;
 }
 
 .float-hide{
 	width:7em;
   text-align:center;
   padding: 0.3em;
-  font-family: 'Sniglet', cursive;
+  font-family: 'Sniglet', sans-serif;
 }
 
 /*Chapter buttons */
 .btn-info {
   margin-bottom: 1em;
-  font-family: 'Sniglet', cursive;
+  font-family: 'Sniglet', sans-serif;
 }
 
 .btn-info a {
@@ -360,13 +384,14 @@ eng {
   padding-top: 2em;
   padding-bottom: 5em;
   text-align: center;
-  font-family: 'Sniglet', cursive;
+  font-family: 'Sniglet', sans-serif;
 }
 
 /* for about page */
 .about-text {
   border: solid green;
   justify-content: center;
+  font-size: 22px;
 }
 
 
@@ -386,7 +411,7 @@ eng {
   right: 50px;
   left: 50px;
   padding: 0.1em;
-  font-family: 'Sniglet', cursive;
+  font-family: 'Sniglet', sans-serif;
 }
 
 /* This button hides content on tablets and desktop 
@@ -488,3 +513,4 @@ Used for the chap nav part!! */
 .quizScore {
   margin-top: 5px;
 }
+

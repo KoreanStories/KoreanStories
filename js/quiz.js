@@ -41,7 +41,7 @@
  var showScore = "Your Score: " + calcScore +"/" + questionCounter;
 // if 4/4, "perfect score!"
  if (calcScore === questionCounter) {
-   showScore = showScore + "&nbsp; <strong>Perfect Score!</strong>"
+   showScore = showScore + "&nbsp; <strong>Perfect!</strong>"
  };
  document.getElementById('userScore').innerHTML = showScore;
 }
