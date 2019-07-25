@@ -9,7 +9,7 @@ $webmaster_email = "hangukstories@gmail.com";
 This bit sets the URLs of the supporting pages.
 If you change the names of any of the pages, you will need to change the values here.
 */
-$submit_page = "submit.html";
+$submit_page = "about.html";
 $error_page = "error_message.html";
 $thankyou_page = "thank_you.html";
 
@@ -23,7 +23,7 @@ $first_name = $_REQUEST['first_name'] ;
 $msg = 
 "First Name: " . $first_name . "\r\n" . 
 "Email: " . $email_address . "\r\n" . 
-"Story: " . $comments ;
+"Comment: " . $comments ;
 
 /*
 The following function checks for email injection.

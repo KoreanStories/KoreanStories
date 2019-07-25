@@ -5,10 +5,13 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="copyright" content="">
+    <meta name="description" content="Korean stories with English translations for Korean learners">
+    <meta name="keywords" content="Korean books, Korean stories, read korean, study korean, learn korean, korean and english">
+    <meta name="robots" content="index, follow">
     <meta name="author" content="">
 
-    <title>Easy Korean Stories</title>
+    <title>Korean Stories</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,9 +37,11 @@
         <ul class="nav navbar-nav">
           <li class="nav-item">
             <div class="dropdown" >
-              <button class="btn btn-new dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Easy
+              <button class="btn btn-lg btn-new" type="button">
+                <a href="easy/easy.html">Easy</a>
               </button>
+              <button type="button" class="btn btn-lg btn-new dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="easy/amazingpot.html">The Amazing Pot</a>
               </div>
@@ -44,9 +49,11 @@
           </li>
           <li class="nav-item">
             <div class="dropdown" >
-              <button class="btn btn-new dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Medium
-              </button>
+                <button class="btn btn-lg btn-new" type="button">
+                    <a href="medium/medium.html">Medium</a>
+                  </button>
+              <button type="button" class="btn btn-lg btn-new dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="easy/amazingpot.html">The Amazing Pot</a>
               </div>
@@ -54,27 +61,30 @@
           </li>
           <li class="nav-item">
             <div class="dropdown" >
-              <button class="btn btn-new dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Hard
-              </button>
+                <div class="dropdown" >
+                    <button class="btn btn-lg btn-new" type="button">
+                        <a href="hard/hard.html">Hard</a>
+                      </button>
+                  <button type="button" class="btn btn-lg btn-new dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                    </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="easy/amazingpot.html">The Amazing Pot</a>
               </div>
             </div>
           </li>
+         <!-- <li class="nav-item">
+            <button class="btn btn-new btn-lg extra" type="button" >
+              <a href="buy.html">Buy a Book</a>
+            </button>
+          </li> -->
           <li class="nav-item">
-            <button class="btn btn-new" type="button" >
-              <a href="./submit/submit.html">Submit a Story</a>
+            <button class="btn btn-new btn-lg extra" type="button" >
+              <a href="resources/resources.html">Resources</a>
             </button>
           </li>
           <li class="nav-item">
-            <button class="btn btn-new" type="button" >
-              <a href="resources.html">Resources</a>
-            </button>
-          </li>
-          <li class="nav-item">
-            <button class="btn btn-new" type="button" >
-              <a href="about.html">About</a>
+            <button class="btn btn-new btn-lg extra" type="button" >
+              <a href="about/about.html">About</a>
             </button>
           </li>
         </ul>
@@ -125,41 +135,51 @@
 
   <!--This content is only visible on SMALL screens-->
   <div class="container hide-on-tablet-and-desktop">
-    <div class="story-list-small dropdown show">
-      <a class="btn  btn-info btn-lg dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Easy
-      </a>
     
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-        <a class="dropdown-item" href="easy/amazingpot.html">신기한 항아리 | The Amazing Pot</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
-    </div>
-
-    <div class="story-list-small dropdown show">
-      <a class="btn  btn-info btn-lg dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Medium
-      </a>
-    
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-        <a class="dropdown-item" href="easy/amazingpot.html">신기한 항아리 | The Amazing Pot</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
-    </div>
-
-      <div class="story-list-small dropdown show">
-        <a class="btn  btn-info btn-lg dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Hard
+    <div class="row mx-auto story-list-small  dropdown show">
+        <a href="easy/easy.html" class="col-lg-3 btn-dif">
+            <h2>Easy</h2>
         </a>
-      
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item" href="easy/amazingpot.html">신기한 항아리 | The Amazing Pot</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+      <a href="#" class="col-lg-3 btn-dif-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Toggle Dropdown</span>
+      </a>
+    
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="easy/amazingpot.html">신기한 항아리 | The Amazing Pot</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
       </div>
+    </div>
+
+    <div class="row mx-auto story-list-small  dropdown show">
+        <a href="easy/easy.html" class="col-lg-3 btn-dif">
+            <h2>Medium</h2>
+        </a>
+      <a href="#" class="col-lg-3 btn-dif-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Toggle Dropdown</span>
+      </a>
+    
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="easy/amazingpot.html">신기한 항아리 | The Amazing Pot</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </div>
+
+    <div class="row mx-auto story-list-small  dropdown show">
+        <a href="easy/easy.html" class="col-lg-3 btn-dif">
+            <h2>Hard</h2>
+        </a>
+      <a href="#" class="col-lg-3 btn-dif-drop dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Toggle Dropdown</span>
+      </a>
+    
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="easy/amazingpot.html">신기한 항아리 | The Amazing Pot</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </div>
   </div>
 
     <div class="container">
@@ -168,9 +188,9 @@
           <h2>Resources</h2>
         </a>
 
-        <a href="submit.html" class="front-boxes col-lg-3 mx-auto">
-          <h2>Submit a Story</h2>
-        </a>
+        <!-- <a href="buy.html" class="front-boxes col-lg-3 mx-auto">
+          <h2>Buy a Book</h2>
+        </a> -->
         
       <a href="about.html" class="front-boxes col-lg-3 mx-auto">
         <h2>About</h2>
@@ -178,7 +198,7 @@
 
        </div>
       </div>
-    </section>
+  </section>
   
 
     <!-- Footer -->

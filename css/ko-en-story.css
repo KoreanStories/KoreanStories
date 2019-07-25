@@ -37,12 +37,15 @@ h2{
 
 
 /* nav bar buttons */
-.dropdown-toggle:hover {
+.nav-item a {
+}
+
+.nav-item .dropdown-toggle:hover {
   background-color: #9a1924;
   color: white;
 }
 
-.dropdown-toggle:active {
+.nav-item .dropdown-toggle:active {
   background-color: #9a1924;
   color: white;
 }
@@ -50,8 +53,8 @@ h2{
 .btn-new {
   background-color: #CD2E3A;
   color: white;
-  margin-right: 0.3em;
   margin-top: 0.3em;
+  margin-right: -0.1em; /*controls distance to toggle*/
 }
 
 .btn-new:hover {
@@ -69,13 +72,23 @@ h2{
   color: white;
 }
 
+/*space for dropdown navs*/
+.dropdown .dropdown-toggle {
+  margin-right: 0.3em;
+}
+
+/* gives nav buttons extra space for non-drop downs*/
+.nav-item .extra {
+  margin-right: 0.3em;
+}
+
 /* nav drop down colours */
-.dropdown-menu {
+.nav-item .dropdown-menu {
   background-color: white;
   color: black;
 }
 
-.dropdown-item:hover {
+.nav-item .dropdown-item:hover {
   background-color: #9a1924;
   color: white;
 }
@@ -150,7 +163,7 @@ header {
 }
 
 .storylist a:visited {
-  color: #0047A0 ;
+  color: #0047A0;
 }
 
 /* This content hides the large menu option on small screens!!*/
@@ -163,18 +176,52 @@ header {
 /* Content for mobile front page display */
 .story-list-small {
   text-align: center;
+  align-content: center;
+  vertical-align: center;
 }
 
+.story-list-small a:hover {
+  text-decoration-style: none;
+  text-decoration: none;
+  background-color: #CD2E3A;
+  color: white;
+}
+/* small screen buttons */
+.story-list-small .btn-dif {
+  border-radius: 1em;
+  padding: 1%;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 2px;
+  border: solid #CD2E3A;
+  color: #CD2E3A;
+}
+
+.story-list-small .btn-dif-drop {
+  border-radius: 1em;
+  padding: 1%;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  border: solid #CD2E3A;
+  color: #CD2E3A;
+}
 
 .story-list-small .dropdown-menu {
   text-align: center;
   align-content: center;
   vertical-align: center;
-  margin-right: 30px;
+  
+}
+
+.story-list-small .dropdown-item {
+  font-size: large;
+  display: inline;
 }
 
 .story-list-small .dropdown-item:hover {
-  background-color: #0047A0;
+  background-color: #CD2E3A;
+  color: white;
 }
 
 /* front page title */
@@ -392,6 +439,8 @@ eng {
   border: solid green;
   justify-content: center;
   font-size: 22px;
+  display: inline-block;
+  text-align: center;
 }
 
 
@@ -514,3 +563,53 @@ Used for the chap nav part!! */
   margin-top: 5px;
 }
 
+/* Resources page */
+.resources-box {
+  border-radius: 25px;
+  padding: 1%;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  margin:0 auto;
+  margin-bottom: 20px;
+  border: solid #0047A0;
+}
+
+.resources-box a{
+  text-decoration: none;
+  color: #0047A0;
+  font-size: large;
+}
+
+.resources-box a:hover {
+  color:#CD2E3A;
+}
+
+.resources-box a:focus {
+  color:#CD2E3A
+}
+
+.resources-box li {
+  list-style: none;
+  text-align: center;
+  color: #0047A0;
+}
+
+.resources-box ul {
+  padding: 0;
+}
+
+.resources-box h2 {
+  font-style: italic;
+  color: #CD2E3A;
+}
+
+.resources-box h4 {
+  color: #CD2E3A;
+}
+
+/* for main pages of each level */
+
+.main-story .storylist li a{
+  color:  #0047A0;
+}
