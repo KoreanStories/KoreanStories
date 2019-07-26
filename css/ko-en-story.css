@@ -618,3 +618,12 @@ Used for the chap nav part!! */
 .buy-button {
   display: none;
 }
+
+/* controls the imgs for each chapter */
+
+.img-box {
+  margin-bottom: 0.5em;
+}
+.book-img {
+  width: 200px;
+}
