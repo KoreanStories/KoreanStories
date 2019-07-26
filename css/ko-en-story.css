@@ -613,3 +613,8 @@ Used for the chap nav part!! */
 .main-story .storylist li a{
   color:  #0047A0;
 }
+
+/*control the visibilty of the buy button */
+.buy-button {
+  display: none;
+}
