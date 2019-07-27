@@ -230,6 +230,10 @@ header {
   color: #0047A0;
 }
 
+.front-title h4 {
+  color: #CD2E3A;
+}
+
 /* Front page etc  boxes */
 .front-boxes {
   border-radius: 1em;
@@ -626,4 +630,22 @@ Used for the chap nav part!! */
 }
 .book-img {
   width: 200px;
+}
+
+/* for the photo credits */
+.photo-credit {
+  font-size: x-small;
+}
+
+.photo-credit a {
+  text-decoration: none;
+}
+
+/* for story credits */
+.story-credit {
+  margin-top: 1em;
+}
+
+.story-credit a {
+  text-decoration: none;
 }
